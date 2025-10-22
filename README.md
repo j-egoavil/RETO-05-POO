@@ -5,14 +5,20 @@
  - Individual modules that import *Shape* in inheritates from it.
 
 ## Unico modulo
+
+ - El codigo se sube de manera que ahora puede ser usado como paquete
+   
 ```
-SingleModule/
-│── Shape/
-│   ├── __init__.py
-│   └── shape_module.py
+shape/
+├── __init__.py
+└── Ejercicio_Clase.py
 ```
+
 ## Sub division en varios modulos
 
+ - Primero se subdivide el codigo para en caso de ser necesario poder traer una unica clase de interes 
+ - Luego se une todo en la misma carpeta para ser usado como paquete
+   
 ```
 modules/
 │
