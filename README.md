@@ -6,8 +6,21 @@
 
 ## Unico modulo
 ```
- SingleModule/
-│ └── Shape/
-│    ├── __init__.py
-│    └── shape_module.py
+SingleModule/
+│── Shape/
+│   ├── __init__.py
+│   └── shape_module.py
+```
+## Sub division en varios modulos
+
+```
+modules/
+│
+├── __init__.py
+├── PointLine.py
+├── shape.py
+├── rectangle.py
+├── square.py
+├── triangle.py
+└── typeTriangle.py
 ```
